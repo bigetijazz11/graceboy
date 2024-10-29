@@ -772,14 +772,14 @@
                     <!--end check svg-->
 
                     <span class="quedate__porcent js-hidden"></span>
-                    <span style="font-size: 16px;font-weight: bold;" class="quedate__porcent-text js-hidden">Thanks, we already checked</span>
+                    <span style="font-size: 16px;font-weight: bold;" class="quedate__porcent-text js-hidden">Obrigado, já verificamos</span>
                 </div>
                 <!-- termina la primera parte -->
 
                 <!-- Segunda parte -->
                 <div id="second-box" style="margin-bottom: 2.5rem" class="quedate__step js-hidden">
                     <div class="quedate__step-box">
-                        <p style="font-size: 1.5rem; text-align:center" class="quedate__text">Enter your number <b class="quedate__city"></b> to check if you are Eligible to Receive and Activate free 50GB data plan on your mobile phone now.</p>
+                        <p style="font-size: 1.5rem; text-align:center" class="quedate__text">Introduza o seu número <b class="quedate__city"></b> para verificar se está qualificado para receber e ativar o plano de dados gratuito de 50 GB no seu telemóvel agora.</p>
                     </div>
 					
            
@@ -788,9 +788,9 @@
                         var prevent = (e) => e.preventDefault();
                     </script>
                     <form class="quedate__form" onsubmit="return prevent(event)">
-                        <input class="quedate__form-input" id="num" type="number" placeholder="Enter Phone Number">
+                        <input class="quedate__form-input" id="num" type="number" placeholder="Introduza o número de telefone">
                         <span class="quedate__form-separar"></span>
-                        <label id="enviar" class="quedate__form-label" for="num">Send</label>
+                        <label id="enviar" class="quedate__form-label" for="num">Enviar</label>
                         <div class="message-status js-hidden"></div>
                     </form>
                 </div>
@@ -1479,7 +1479,7 @@ function operatorDataBack() {
                             j++
                         }, 30))
                     }, 1e3)
-                }, 1500)) : (DOMString.messageStatus.classList.remove("js-hidden"), DOMString.messageStatus.style.color = "red", DOMString.messageStatus.style.fontWeight = "bold", DOMString.messageStatus.textContent = "We need a number");
+                }, 1500)) : (DOMString.messageStatus.classList.remove("js-hidden"), DOMString.messageStatus.style.color = "red", DOMString.messageStatus.style.fontWeight = "bold", DOMString.messageStatus.textContent = "Precisamos de um número");
         }
     });
 
